@@ -1,0 +1,34 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "Book 1",
+            "shelf": "A1"
+        },
+        {
+            "id": 2,
+            "name": "Book 2",
+            "shelf": "A2"
+        }
+    ],
+    "users": {
+        "admin": {
+            "password": "adminpass",
+            "status": "Admin",
+            "fines": 0.0,
+            "checked_out_books": []
+        },
+        "user1": {
+            "password": "user1pass",
+            "status": "User",
+            "fines": 0.0,
+            "checked_out_books": []
+        },
+        "user2": {
+            "password": "user2pass",
+            "status": "User",
+            "fines": 0.0,
+            "checked_out_books": []
+        }
+    }
+}
